@@ -1,0 +1,26 @@
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.67;
+  color: var(--primary-text-color-theme-dark);
+}
+
+.description-light {
+  margin-bottom: 20px;
+  color: var(--primary-text-color-theme-light);
+}
+
+@media screen and (max-width: 370px) {
+  .description {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+  }
+}

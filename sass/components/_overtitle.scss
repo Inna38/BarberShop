@@ -1,0 +1,34 @@
+.overtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.overtitle-light {
+  color: var(--secondary-text-color-theme-light);
+}
+
+.overtitle::before {
+  display: inline-flex;
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+  background-color: rgba(157, 164, 189, 0.6);
+}
+
+.overtitle-light::before {
+  background-color: #303030;
+}
+
+@media screen and (max-width: 767px) {
+  .overtitle {
+    font-size: 10px;
+  }
+}

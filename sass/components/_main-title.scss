@@ -1,0 +1,19 @@
+.main-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+@media screen and (min-width: 1200px) {
+  .main-title {
+    margin-bottom: 20px;
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--secondary-text-color-theme-dark);
+  }
+}

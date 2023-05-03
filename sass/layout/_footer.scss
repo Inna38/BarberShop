@@ -1,0 +1,32 @@
+.footer-container {
+  position: relative;
+  display: flex;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--primary-text-color-theme-dark);
+}
+
+@media screen and (max-width: 767px) {
+  .copyright {
+    position: absolute;
+    left: 20px;
+    bottom: 44px;
+  }
+}
