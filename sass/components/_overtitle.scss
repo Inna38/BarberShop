@@ -24,6 +24,11 @@
 }
 
 .overtitle-light::before {
+    display: inline-flex;
+      content: "";
+      width: 60px;
+      height: 1px;
+      margin-right: 20px;
   background-color: #303030;
 }
 

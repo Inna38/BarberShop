@@ -188,6 +188,11 @@ button {
 }
 
 .overtitle-light::before {
+  display: inline-flex;
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
   background-color: #303030;
 }
 
@@ -365,7 +370,7 @@ button {
   }
   .mobile-modal-btn {
     display: inline-block;
-    min-width: 188px;
+    width: 188px;
     padding: 12px 30px;
     border: 1px solid var(--accent-color);
     border-radius: 25px;
@@ -1083,7 +1088,9 @@ address {
 
 .footer-list {
   display: flex;
+  align-items: center;
   margin-left: auto;
+  margin-bottom: 20px;
 }
 
 .footer-item:not(:last-child) {

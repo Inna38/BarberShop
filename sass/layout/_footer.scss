@@ -8,7 +8,9 @@
 
 .footer-list {
   display: flex;
+  align-items: center;
   margin-left: auto;
+  margin-bottom: 20px;
 }
 
 .footer-item:not(:last-child) {
